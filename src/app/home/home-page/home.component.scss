@@ -12929,10 +12929,6 @@ header.masthead .masthead-content2 {
   }
 }
 
-// @media only screen and (min-width : 481px) {
-
-// }
-
 @media only screen and (min-width : 481px) {
   .mx-6 {
     margin-left: 1.5rem;
@@ -12962,6 +12958,13 @@ header.masthead .masthead-content2 {
   }
 }
 
+@media only screen and (min-width : 406px) and (max-width : 422px) {
+  .px-custom {
+    padding-left: 0.25rem !important;
+    padding-left: 0.25rem !important;
+  }
+}
+
 @media only screen and (min-width : 550px) {
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -12974,7 +12977,6 @@ header.masthead .masthead-content2 {
     line-height: 1.25rem;
     margin-bottom: 1rem;
   }
-
 }
 
 /* iPads (portrait and landscape) ----------- */
