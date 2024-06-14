@@ -655,7 +655,7 @@ progress {
 
 .img-fluid2 {
   max-width: 100%;
-  height: 235px;
+  height: fit-content;
 }
 
 .img-border {
@@ -703,7 +703,6 @@ progress {
 }
 
 @media (min-width: 576px) {
-
   .container-sm,
   .container {
     max-width: 540px;
@@ -12888,7 +12887,7 @@ header.masthead .masthead-content2 {
 
   header.masthead .masthead-subheading {
     font-size: 1.5rem;
-    margin-top: -5rem;
+    margin-top: -5%;
     margin-bottom: 1rem;
   }
 
@@ -12929,6 +12928,10 @@ header.masthead .masthead-content2 {
     font-size: 1rem !important;
   }
 }
+
+// @media only screen and (min-width : 481px) {
+
+// }
 
 @media only screen and (min-width : 481px) {
   .mx-6 {
